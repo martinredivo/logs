@@ -1,0 +1,322 @@
+[
+    {
+        "Id": "DF891D70FC544659A7B65C4327E80E57",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentGateway",
+        "Status": "Transaction Finished",
+        "Date": "2020-09-30T13:47:40.5065714",
+        "Message": "Transaction settlement finished\r\nAuthor: vtexappkey-appvtex.",
+        "Ticks": 637370704605065714
+    },
+    {
+        "Id": "21DC014406C54C2D9FE3923D51DC1965",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "TransactionWorkFlowChangeStatus",
+        "Status": "Transaction Finished",
+        "Date": "2020-09-30T13:47:40.3503088",
+        "Message": "Status change: from Settled to Finished.",
+        "Ticks": 637370704603503088
+    },
+    {
+        "Id": "BF39EB3F1BB14423AF2D30219C577FDD",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "TransactionWorkFlowChangeStatus",
+        "Status": "Transaction Settled",
+        "Date": "2020-09-30T13:47:40.2565561",
+        "Message": "Status change: from Settling to Settled.",
+        "Ticks": 637370704602565561
+    },
+    {
+        "Id": "802D11BF6FCC42AD9F16F6C7917AD659",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "TransactionWorkFlowChangeStatus",
+        "Status": "Transaction Settling",
+        "Date": "2020-09-30T13:47:39.9752967",
+        "Message": "Status change: from Approved to Settling.",
+        "Ticks": 637370704599752967
+    },
+    {
+        "Id": "6329547FFC2E4ACA9C3ED4765B5A74B9",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentWorkFlowChangeStatus",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:39.9127907",
+        "Message": "Status change: from Settled to Finished.",
+        "Ticks": 637370704599127907
+    },
+    {
+        "Id": "7FC776E336184C94A7EF31EDA15EB5CF",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentWorkFlowChangeStatus",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:39.8815317",
+        "Message": "Status change: from Settling to Settled.",
+        "Ticks": 637370704598815317
+    },
+    {
+        "Id": "8F9DF784A94C486D8EED544FC5FE043E",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentWorkFlowChangeStatus",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:39.6003147",
+        "Message": "Status change: from Authorized to Settling.",
+        "Ticks": 637370704596003147
+    },
+    {
+        "Id": "F2A5DED0DFE04FB28FDAC76915F2AC4C",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentGateway",
+        "Status": "Transaction Approved",
+        "Date": "2020-09-30T13:47:39.5221823",
+        "Message": "Transaction settlement started value [1125.2], RequestId [2020-09-30T13:47:39-112520]\r\nAuthor: vtexappkey-appvtex.",
+        "Ticks": 637370704595221823
+    },
+    {
+        "Id": "E2AFE64A71C74CD7A0926D9CC27D2D81",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentGateway",
+        "Status": "Transaction Approved",
+        "Date": "2020-09-30T13:47:34.9663924",
+        "Message": "Transaction cancelation has finished for Id = 33BC0752326B4B8FA3C7DF950A25A4E2.\r\nAuthor: vtexappkey-appvtex.",
+        "Ticks": 637370704549663924
+    },
+    {
+        "Id": "B05E060CB6BC4649B907EC815A636868",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:34.7789103",
+        "Message": "Message: Cancelled.",
+        "Ticks": 637370704547789103
+    },
+    {
+        "Id": "9C6265E7A8E4422EBAFD00F3B878A048",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:34.7007821",
+        "Message": "getOrder response received from Firstdata: <SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"><SOAP-ENV:Header/><SOAP-ENV:Body><ipgapi:IPGApiActionResponse xmlns:a1=\"http://ipg-online.com/ipgapi/schemas/a1\" xmlns:ipgapi=\"http://ipg-online.com/ipgapi/schemas/ipgapi\" xmlns:v1=\"http://ipg-online.com/ipgapi/schemas/v1\"><ipgapi:successfully>true</ipgapi:successfully><ipgapi:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</ipgapi:OrderId><v1:Billing/><v1:Shipping/><a1:TransactionValues><v1:CreditCardTxType><v1:Type>preauth</v1:Type></v1:CreditCardTxType><v1:CreditCardData><v1:CardNumber>550568...5290</v1:CardNumber><v1:ExpMonth>12</v1:ExpMonth><v1:ExpYear>24</v1:ExpYear><v1:Brand>MASTERCARD</v1:Brand></v1:CreditCardData><v1:Payment><v1:ChargeTotal>3097</v1:ChargeTotal><v1:Currency>032</v1:Currency></v1:Payment><v1:TransactionDetails><v1:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</v1:OrderId><v1:TDate>1601473341</v1:TDate><v1:TransactionOrigin>ECI</v1:TransactionOrigin></v1:TransactionDetails><ipgapi:IPGApiOrderResponse><ipgapi:ApprovalCode>Y:010180:4547498324:PPXX:4857215966</ipgapi:ApprovalCode><ipgapi:AVSResponse>PPX</ipgapi:AVSResponse><ipgapi:Brand>MASTERCARD</ipgapi:Brand><ipgapi:Country>ARG</ipgapi:Country><ipgapi:ExternalMerchantID>00000013</ipgapi:ExternalMerchantID><ipgapi:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</ipgapi:OrderId><ipgapi:IpgTransactionId>84547498324</ipgapi:IpgTransactionId><ipgapi:PaymentType>CREDITCARD</ipgapi:PaymentType><ipgapi:ProcessorApprovalCode>010180</ipgapi:ProcessorApprovalCode><ipgapi:ProcessorReceiptNumber>5966</ipgapi:ProcessorReceiptNumber><ipgapi:ProcessorCCVResponse>X</ipgapi:ProcessorCCVResponse><ipgapi:ProcessorTraceNumber>485721</ipgapi:ProcessorTraceNumber><ipgapi:ReferencedTDate>1601473341</ipgapi:ReferencedTDate><ipgapi:TDate>1601473341</ipgapi:TDate><ipgapi:TDateFormatted>2020.09.30 15:42:21 (CEST)</ipgapi:TDateFormatted><ipgapi:TerminalID>06000421</ipgapi:TerminalID></ipgapi:IPGApiOrderResponse><a1:ReceiptNumber>5966</a1:ReceiptNumber><a1:TraceNumber>485721</a1:TraceNumber><a1:Brand>MASTERCARD</a1:Brand><a1:TransactionType>PREAUTH</a1:TransactionType><a1:TransactionState>AUTHORIZED</a1:TransactionState><a1:UserID>1</a1:UserID><a1:SubmissionComponent>API</a1:SubmissionComponent></a1:TransactionValues><a1:TransactionValues><v1:CreditCardTxType><v1:Type>postauth</v1:Type></v1:CreditCardTxType><v1:CreditCardData><v1:CardNumber>550568...5290</v1:CardNumber><v1:ExpMonth>12</v1:ExpMonth><v1:ExpYear>24</v1:ExpYear><v1:Brand>MASTERCARD</v1:Brand></v1:CreditCardData><v1:Payment><v1:ChargeTotal>3097</v1:ChargeTotal><v1:Currency>032</v1:Currency></v1:Payment><v1:TransactionDetails><v1:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</v1:OrderId><v1:TDate>1601473359</v1:TDate><v1:TransactionOrigin>ECI</v1:TransactionOrigin></v1:TransactionDetails><ipgapi:IPGApiOrderResponse><ipgapi:ApprovalCode>Y:000000:4547498328:PPXX:4857375967</ipgapi:ApprovalCode><ipgapi:AVSResponse>PPX</ipgapi:AVSResponse><ipgapi:Brand>MASTERCARD</ipgapi:Brand><ipgapi:Country>ARG</ipgapi:Country><ipgapi:ExternalMerchantID>00000013</ipgapi:ExternalMerchantID><ipgapi:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</ipgapi:OrderId><ipgapi:IpgTransactionId>84547498328</ipgapi:IpgTransactionId><ipgapi:PaymentType>CREDITCARD</ipgapi:PaymentType><ipgapi:ProcessorApprovalCode>000000</ipgapi:ProcessorApprovalCode><ipgapi:ProcessorReceiptNumber>5967</ipgapi:ProcessorReceiptNumber><ipgapi:ProcessorCCVResponse>X</ipgapi:ProcessorCCVResponse><ipgapi:ProcessorTraceNumber>485737</ipgapi:ProcessorTraceNumber><ipgapi:ReferencedTDate>1601473359</ipgapi:ReferencedTDate><ipgapi:TDate>1601473359</ipgapi:TDate><ipgapi:TDateFormatted>2020.09.30 15:42:39 (CEST)</ipgapi:TDateFormatted><ipgapi:TerminalID>06000421</ipgapi:TerminalID></ipgapi:IPGApiOrderResponse><a1:ReceiptNumber>5967</a1:ReceiptNumber><a1:TraceNumber>485737</a1:TraceNumber><a1:Brand>MASTERCARD</a1:Brand><a1:TransactionType>POSTAUTH</a1:TransactionType><a1:TransactionState>VOIDED</a1:TransactionState><a1:UserID>1</a1:UserID><a1:SubmissionComponent>API</a1:SubmissionComponent></a1:TransactionValues><a1:TransactionValues><v1:CreditCardTxType><v1:Type>void</v1:Type></v1:CreditCardTxType><v1:CreditCardData><v1:CardNumber>550568...5290</v1:CardNumber><v1:ExpMonth>12</v1:ExpMonth><v1:ExpYear>24</v1:ExpYear><v1:Brand>MASTERCARD</v1:Brand></v1:CreditCardData><v1:Payment><v1:ChargeTotal>3097</v1:ChargeTotal><v1:Currency>032</v1:Currency></v1:Payment><v1:TransactionDetails><v1:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</v1:OrderId><v1:TDate>1601473648</v1:TDate><v1:TransactionOrigin>ECI</v1:TransactionOrigin></v1:TransactionDetails><ipgapi:IPGApiOrderResponse><ipgapi:ApprovalCode>Y:010181:4547498627:PPXX:4858955968</ipgapi:ApprovalCode><ipgapi:AVSResponse>PPX</ipgapi:AVSResponse><ipgapi:Brand>MASTERCARD</ipgapi:Brand><ipgapi:Country>ARG</ipgapi:Country><ipgapi:ExternalMerchantID>00000013</ipgapi:ExternalMerchantID><ipgapi:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</ipgapi:OrderId><ipgapi:IpgTransactionId>84547498627</ipgapi:IpgTransactionId><ipgapi:PaymentType>CREDITCARD</ipgapi:PaymentType><ipgapi:ProcessorApprovalCode>010181</ipgapi:ProcessorApprovalCode><ipgapi:ProcessorReceiptNumber>5968</ipgapi:ProcessorReceiptNumber><ipgapi:ProcessorCCVResponse>X</ipgapi:ProcessorCCVResponse><ipgapi:ProcessorTraceNumber>485895</ipgapi:ProcessorTraceNumber><ipgapi:ReferencedTDate>1601473648</ipgapi:ReferencedTDate><ipgapi:TDate>1601473648</ipgapi:TDate><ipgapi:TDateFormatted>2020.09.30 15:47:28 (CEST)</ipgapi:TDateFormatted><ipgapi:TerminalID>06000421</ipgapi:TerminalID></ipgapi:IPGApiOrderResponse><a1:ReceiptNumber>5968</a1:ReceiptNumber><a1:TraceNumber>485895</a1:TraceNumber><a1:Brand>MASTERCARD</a1:Brand><a1:TransactionType>VOID</a1:TransactionType><a1:TransactionState>VOIDED</a1:TransactionState><a1:UserID>1</a1:UserID><a1:SubmissionComponent>API</a1:SubmissionComponent></a1:TransactionValues></ipgapi:IPGApiActionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>",
+        "Ticks": 637370704547007821
+    },
+    {
+        "Id": "A1C9BDAB96EE42619C8E5333D1CE427C",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:33.4976581",
+        "Message": "Send getOrder xml to Firstdata: <?xml version='1.0' encoding='UTF-8'?><x:Envelope xmlns:x=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ipg=\"http://ipg-online.com/ipgapi/schemas/ipgapi\" xmlns:a=\"http://ipg-online.com/ipgapi/schemas/a1\" xmlns:v=\"http://ipg-online.com/ipgapi/schemas/v1\"><x:Header/><x:Body><ipg:IPGApiActionRequest><a:Action><a:InquiryOrder><a:StoreId>5919090504</a:StoreId><a:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</a:OrderId></a:InquiryOrder></a:Action></ipg:IPGApiActionRequest></x:Body></x:Envelope>",
+        "Ticks": 637370704534976581
+    },
+    {
+        "Id": "D2166F4CA11948559D32FD22A1977C97",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:33.4664071",
+        "Message": "Cancel response received from Firstdata: <SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"><SOAP-ENV:Header/><SOAP-ENV:Body><ipgapi:IPGApiOrderResponse xmlns:a1=\"http://ipg-online.com/ipgapi/schemas/a1\" xmlns:ipgapi=\"http://ipg-online.com/ipgapi/schemas/ipgapi\" xmlns:v1=\"http://ipg-online.com/ipgapi/schemas/v1\"><ipgapi:ApprovalCode>Y:010181:4547498627:PPXX:4858955968</ipgapi:ApprovalCode><ipgapi:AVSResponse>PPX</ipgapi:AVSResponse><ipgapi:Brand>MASTERCARD</ipgapi:Brand><ipgapi:Country>ARG</ipgapi:Country><ipgapi:CommercialServiceProvider>FDCS</ipgapi:CommercialServiceProvider><ipgapi:ExternalMerchantID>00000013</ipgapi:ExternalMerchantID><ipgapi:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</ipgapi:OrderId><ipgapi:IpgTransactionId>84547498627</ipgapi:IpgTransactionId><ipgapi:PaymentType>CREDITCARD</ipgapi:PaymentType><ipgapi:ProcessorApprovalCode>010181</ipgapi:ProcessorApprovalCode><ipgapi:ProcessorReceiptNumber>5968</ipgapi:ProcessorReceiptNumber><ipgapi:ProcessorBatchNumber>001</ipgapi:ProcessorBatchNumber><ipgapi:ProcessorEndpointID>B24 ARGENTINA VIA CAFEX DEV</ipgapi:ProcessorEndpointID><ipgapi:ProcessorCCVResponse>X</ipgapi:ProcessorCCVResponse><ipgapi:ProcessorReferenceNumber>      485895</ipgapi:ProcessorReferenceNumber><ipgapi:ProcessorResponseCode>00</ipgapi:ProcessorResponseCode><ipgapi:ProcessorResponseMessage>Function performed error-free</ipgapi:ProcessorResponseMessage><ipgapi:ProcessorTraceNumber>485895</ipgapi:ProcessorTraceNumber><ipgapi:ReferencedTDate>1601473359</ipgapi:ReferencedTDate><ipgapi:TDate>1601473648</ipgapi:TDate><ipgapi:TDateFormatted>2020.09.30 15:47:28 (CEST)</ipgapi:TDateFormatted><ipgapi:TerminalID>06000421</ipgapi:TerminalID><ipgapi:TransactionResult>APPROVED</ipgapi:TransactionResult><ipgapi:TransactionTime>1601473648</ipgapi:TransactionTime><ipgapi:ProcessorPromotionalMessage>COBRA YA TUS VENTAS WWW.FIRSTDATA.COM.AR</ipgapi:ProcessorPromotionalMessage></ipgapi:IPGApiOrderResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>",
+        "Ticks": 637370704534664071
+    },
+    {
+        "Id": "3D4BC84D8057400F8E5A250B26A7A618",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:26.9976938",
+        "Message": "Send refund xml to Firstdata: <?xml version='1.0' encoding='UTF-8'?><soap-env:Envelope xmlns:soap-env='http://schemas.xmlsoap.org/soap/envelope/'><soap-env:Header /><soap-env:Body><ipgapi:IPGApiOrderRequest xmlns:ipgapi='http://ipg-online.com/ipgapi/schemas/ipgapi' xmlns:v1='http://ipg-online.com/ipgapi/schemas/v1'><v1:Transaction><v1:CreditCardTxType><v1:StoreId>5919090504</v1:StoreId><v1:Type>void</v1:Type></v1:CreditCardTxType><v1:cardFunction>credit</v1:cardFunction><v1:Payment><v1:ChargeTotal>1971.8</v1:ChargeTotal><v1:Currency>032</v1:Currency></v1:Payment><v1:TransactionDetails><v1:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</v1:OrderId></v1:TransactionDetails></v1:Transaction></ipgapi:IPGApiOrderRequest></soap-env:Body></soap-env:Envelope>",
+        "Ticks": 637370704469976938
+    },
+    {
+        "Id": "0BF74D67D5174547BAF0EC9D6FDFD915",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:47:26.794585",
+        "Message": "Started refunding value 1971.8 for payment 199FB9BD9ADC4B2085609BF5AFCC243F.",
+        "Ticks": 637370704467945850
+    },
+    {
+        "Id": "3DF94B0C707F43569954BA2425D59BD4",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentGateway",
+        "Status": "Transaction Approved",
+        "Date": "2020-09-30T13:47:26.6070888",
+        "Message": "An external application called to cancel this transaction Id = 33BC0752326B4B8FA3C7DF950A25A4E2 with Value 1971.8 RequestId = 2020-09-30T13:47:26-197180. Priority: default.\r\nAuthor: vtexappkey-appvtex.",
+        "Ticks": 637370704466070888
+    },
+    {
+        "Id": "F700177C766C45C296236949B89A5E70",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentAutoSettlementWorker",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:42:40.0786708",
+        "Message": "Auto settlement worker processed payment 199FB9BD9ADC4B2085609BF5AFCC243F without errors.",
+        "Ticks": 637370701600786708
+    },
+    {
+        "Id": "2545ABDF3F0C4C87B775B3197A3E5B8A",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:42:39.9224233",
+        "Message": "Message: success.",
+        "Ticks": 637370701599224233
+    },
+    {
+        "Id": "1575D1D6DD984A92B7A63F66BE44C1EF",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:42:39.859913",
+        "Message": "Settle response received from Firstdata: <SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"><SOAP-ENV:Header/><SOAP-ENV:Body><ipgapi:IPGApiOrderResponse xmlns:a1=\"http://ipg-online.com/ipgapi/schemas/a1\" xmlns:ipgapi=\"http://ipg-online.com/ipgapi/schemas/ipgapi\" xmlns:v1=\"http://ipg-online.com/ipgapi/schemas/v1\"><ipgapi:ApprovalCode>Y:000000:4547498328:PPXX:4857375967</ipgapi:ApprovalCode><ipgapi:AVSResponse>PPX</ipgapi:AVSResponse><ipgapi:Brand>MASTERCARD</ipgapi:Brand><ipgapi:Country>ARG</ipgapi:Country><ipgapi:CommercialServiceProvider>FDCS</ipgapi:CommercialServiceProvider><ipgapi:ExternalMerchantID>00000013</ipgapi:ExternalMerchantID><ipgapi:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</ipgapi:OrderId><ipgapi:IpgTransactionId>84547498328</ipgapi:IpgTransactionId><ipgapi:PaymentType>CREDITCARD</ipgapi:PaymentType><ipgapi:ProcessorReceiptNumber>5967</ipgapi:ProcessorReceiptNumber><ipgapi:ProcessorBatchNumber>001</ipgapi:ProcessorBatchNumber><ipgapi:ProcessorEndpointID>B24 ARGENTINA VIA CAFEX DEV</ipgapi:ProcessorEndpointID><ipgapi:ProcessorCCVResponse>X</ipgapi:ProcessorCCVResponse><ipgapi:ProcessorReferenceNumber>      485737</ipgapi:ProcessorReferenceNumber><ipgapi:ProcessorResponseCode>00</ipgapi:ProcessorResponseCode><ipgapi:ProcessorResponseMessage>Function performed error-free</ipgapi:ProcessorResponseMessage><ipgapi:ProcessorTraceNumber>485737</ipgapi:ProcessorTraceNumber><ipgapi:ReferencedTDate>1601473341</ipgapi:ReferencedTDate><ipgapi:TDate>1601473359</ipgapi:TDate><ipgapi:TDateFormatted>2020.09.30 15:42:39 (CEST)</ipgapi:TDateFormatted><ipgapi:TerminalID>06000421</ipgapi:TerminalID><ipgapi:TransactionResult>APPROVED</ipgapi:TransactionResult><ipgapi:TransactionTime>1601473359</ipgapi:TransactionTime></ipgapi:IPGApiOrderResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>",
+        "Ticks": 637370701598599130
+    },
+    {
+        "Id": "500F95D46AA8467C8EC2E1FDB922AD3D",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:42:37.8755579",
+        "Message": "Send settle xml to Firstdata: <?xml version='1.0' encoding='UTF-8'?><soap-env:Envelope xmlns:soap-env='http://schemas.xmlsoap.org/soap/envelope/'><soap-env:Header /><soap-env:Body><ipgapi:IPGApiOrderRequest xmlns:v1='http://ipg-online.com/ipgapi/schemas/v1' xmlns:ipgapi='http://ipg-online.com/ipgapi/schemas/ipgapi'><v1:Transaction><v1:CreditCardTxType><v1:StoreId>5919090504</v1:StoreId><v1:Type>postAuth</v1:Type></v1:CreditCardTxType><v1:Payment><v1:ChargeTotal>3097</v1:ChargeTotal> <v1:Currency>032</v1:Currency> </v1:Payment> <v1:TransactionDetails><v1:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</v1:OrderId></v1:TransactionDetails></v1:Transaction> </ipgapi:IPGApiOrderRequest> </soap-env:Body></soap-env:Envelope>",
+        "Ticks": 637370701578755579
+    },
+    {
+        "Id": "980D0BA2F0D94B45800D8B333B008B7D",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentAutoSettlementWorker",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:42:37.609955",
+        "Message": "Auto settlement worker trying to settle payment 199FB9BD9ADC4B2085609BF5AFCC243F.",
+        "Ticks": 637370701576099550
+    },
+    {
+        "Id": "1856807102704557B076F5BFC2E6388E",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentAuthorizedWorker",
+        "Status": "Payment Approved",
+        "Date": "2020-09-30T13:42:36.2823954",
+        "Message": "Started authorization retry for payment 199FB9BD9ADC4B2085609BF5AFCC243F.",
+        "Ticks": 637370701562823954
+    },
+    {
+        "Id": "EE1851865A364EA084CD1FFFED779D5F",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentGateway",
+        "Status": "Transaction Approved",
+        "Date": "2020-09-30T13:42:33.06364",
+        "Message": "Transaction authorization finished\r\nAuthor: vtexappkey-arypfpreprod-WSTLDY.",
+        "Ticks": 637370701530636400
+    },
+    {
+        "Id": "4E68E657424B4FDC90490B12482648E4",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "TransactionWorkFlowChangeStatus",
+        "Status": "Transaction Approved",
+        "Date": "2020-09-30T13:42:32.9230107",
+        "Message": "Status change: from Authorized to Approved.",
+        "Ticks": 637370701529230107
+    },
+    {
+        "Id": "A31D92AC39C24C5BB8672A20308BAB02",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "TransactionWorkFlowChangeStatus",
+        "Status": "Transaction Authorized",
+        "Date": "2020-09-30T13:42:32.6730021",
+        "Message": "Status change: from Authorizing to Authorized.",
+        "Ticks": 637370701526730021
+    },
+    {
+        "Id": "231EC1E668F74EA7AB576F2568ECADF0",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentWorkFlowChangeStatus",
+        "Status": "Payment Authorizing",
+        "Date": "2020-09-30T13:42:32.516786",
+        "Message": "Status change: from Authorizing to Authorized.",
+        "Ticks": 637370701525167860
+    },
+    {
+        "Id": "3F5317B6BB2B4CC08E4AE17CC8C5AF6B",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Authorizing",
+        "Date": "2020-09-30T13:42:32.4699093",
+        "Message": "Message: success.",
+        "Ticks": 637370701524699093
+    },
+    {
+        "Id": "67D29F041965406398C2602E3B90A09C",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Authorizing",
+        "Date": "2020-09-30T13:42:32.4230331",
+        "Message": "Response received from Firstdata: <SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"><SOAP-ENV:Header/><SOAP-ENV:Body><ipgapi:IPGApiOrderResponse xmlns:a1=\"http://ipg-online.com/ipgapi/schemas/a1\" xmlns:ipgapi=\"http://ipg-online.com/ipgapi/schemas/ipgapi\" xmlns:v1=\"http://ipg-online.com/ipgapi/schemas/v1\"><ipgapi:ApprovalCode>Y:010180:4547498324:PPXX:4857215966</ipgapi:ApprovalCode><ipgapi:AVSResponse>PPX</ipgapi:AVSResponse><ipgapi:Brand>MASTERCARD</ipgapi:Brand><ipgapi:Country>ARG</ipgapi:Country><ipgapi:CommercialServiceProvider>FDCS</ipgapi:CommercialServiceProvider><ipgapi:ExternalMerchantID>00000013</ipgapi:ExternalMerchantID><ipgapi:OrderId>A-c80baefc-4ece-4c22-bf6c-9ad1ab4f9395</ipgapi:OrderId><ipgapi:IpgTransactionId>84547498324</ipgapi:IpgTransactionId><ipgapi:PaymentType>CREDITCARD</ipgapi:PaymentType><ipgapi:ProcessorApprovalCode>010180</ipgapi:ProcessorApprovalCode><ipgapi:ProcessorReceiptNumber>5966</ipgapi:ProcessorReceiptNumber><ipgapi:ProcessorBatchNumber>001</ipgapi:ProcessorBatchNumber><ipgapi:ProcessorEndpointID>B24 ARGENTINA VIA CAFEX DEV</ipgapi:ProcessorEndpointID><ipgapi:ProcessorCCVResponse>X</ipgapi:ProcessorCCVResponse><ipgapi:ProcessorReferenceNumber>      485721</ipgapi:ProcessorReferenceNumber><ipgapi:ProcessorResponseCode>00</ipgapi:ProcessorResponseCode><ipgapi:ProcessorResponseMessage>Function performed error-free</ipgapi:ProcessorResponseMessage><ipgapi:ProcessorTraceNumber>485721</ipgapi:ProcessorTraceNumber><ipgapi:TDate>1601473341</ipgapi:TDate><ipgapi:TDateFormatted>2020.09.30 15:42:21 (CEST)</ipgapi:TDateFormatted><ipgapi:TerminalID>06000421</ipgapi:TerminalID><ipgapi:TransactionResult>APPROVED</ipgapi:TransactionResult><ipgapi:TransactionTime>1601473341</ipgapi:TransactionTime><ipgapi:ProcessorPromotionalMessage>COBRA YA TUS VENTAS WWW.FIRSTDATA.COM.AR</ipgapi:ProcessorPromotionalMessage></ipgapi:IPGApiOrderResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>",
+        "Ticks": 637370701524230331
+    },
+    {
+        "Id": "08FFDB06118F48FBA3BC4D7F0B50446A",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "Firstdata",
+        "Status": "Payment Authorizing",
+        "Date": "2020-09-30T13:42:19.9855926",
+        "Message": "Send xml to Firstdata: <?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <Header />\r\n  <Body>\r\n    <IPGApiOrderRequest xmlns=\"http://ipg-online.com/ipgapi/schemas/ipgapi\">\r\n      <Transaction xmlns=\"http://ipg-online.com/ipgapi/schemas/v1\">\r\n        <CreditCardTxType>\r\n          <StoreId>5919090504</StoreId>\r\n          <Type>preAuth</Type>\r\n        </CreditCardTxType>\r\n        <CreditCardData>\r\n          <CardNumber>550568******5290</CardNumber>\r\n          <ExpMonth>12</ExpMonth>\r\n          <ExpYear>24</ExpYear>\r\n          <CardCodeValue>***</CardCodeValue>\r\n        </CreditCardData>\r\n        <cardFunction>credit</cardFunction>\r\n        <Payment>\r\n          <ChargeTotal>3097.00</ChargeTotal>\r\n          <Currency>032</Currency>\r\n          <numberOfInstallments>0</numberOfInstallments>\r\n        </Payment>\r\n        <TransactionDetails>\r\n          <DynamicMerchantName>FirstDataYPFA</DynamicMerchantName>\r\n        </TransactionDetails>\r\n      </Transaction>\r\n    </IPGApiOrderRequest>\r\n  </Body>\r\n</Envelope> url https://test.ipg-online.com/ipgapi/services username WS5919090504._.1 password b7w8!rW$mp certificate ipg-certificate ",
+        "Ticks": 637370701399855926
+    },
+    {
+        "Id": "5751DF9607554039BCA91C369B2D6BCF",
+        "PaymentId": "199FB9BD9ADC4B2085609BF5AFCC243F",
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentWorkFlowChangeStatus",
+        "Status": "Payment Authorizing",
+        "Date": "2020-09-30T13:42:19.6574224",
+        "Message": "Status change: from Received to Authorizing.",
+        "Ticks": 637370701396574224
+    },
+    {
+        "Id": "CEC562D11D6544A8ADB3129C5F30D0D7",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "TransactionWorkFlowChangeStatus",
+        "Status": "Transaction Authorizing",
+        "Date": "2020-09-30T13:42:19.4856147",
+        "Message": "Status change: from Started to Authorizing.",
+        "Ticks": 637370701394856147
+    },
+    {
+        "Id": "76EEE2BD38F94BC6A7467FE3623C16D0",
+        "PaymentId": null,
+        "TransactionId": "33BC0752326B4B8FA3C7DF950A25A4E2",
+        "Source": "PaymentGateway",
+        "Status": "Transaction Started",
+        "Date": "2020-09-30T13:42:19.454366",
+        "Message": "Transaction authorization started\r\nAuthor: vtexappkey-arypfpreprod-WSTLDY.",
+        "Ticks": 637370701394543660
+    }
+]
